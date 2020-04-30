@@ -1,6 +1,6 @@
 .all{
     width: 100%;
-    height: 50em;
+    height:100%;
     background-color: rgb(174, 0, 255);
 }
 #search{
@@ -26,4 +26,21 @@
 .horizontal-list li {
     display: inline-block;
     margin: 8px 20px 20px 8px;
+}
+.flex-container {
+     display:flex; 
+     width:100%; 
+     height:100%;
+     backgroundcolor:lightgrey; }
+.flex-container div { 
+    width:25%; 
+    height:200px; }
+#div1 {
+     background-color:#7ff9ae; }
+#div2 {
+     background-color:#76bbfc; }
+#div3 {
+     background-color:#ff7f8e; }
+#div4{
+    background-color: antiquewhite;
 }

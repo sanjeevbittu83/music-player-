@@ -1,0 +1,29 @@
+.all{
+    width: 100%;
+    height: 50em;
+    background-color: rgb(174, 0, 255);
+}
+#search{
+    border-radius: 1em;
+    margin-left: 90%;
+    height: 26px;
+    width: 15em;
+    color: antiquewhite;
+    background-color: rgba(28, 27, 29, 0.548);
+}
+#favourite{
+    color: aliceblue;
+    margin-left: 20%;
+    margin-top:10px;
+}
+#ninja{
+    color: aliceblue;
+}
+#studio{
+    color: aliceblue;
+    font-weight: bold;
+}
+.horizontal-list li {
+    display: inline-block;
+    margin: 8px 20px 20px 8px;
+}

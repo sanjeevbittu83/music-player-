@@ -1,0 +1,192 @@
+body{
+    font-family: monospace;
+    width: 100%;
+    height:100%;
+    background-color: rgb(174, 0, 255);
+}
+main {
+    width: 70%;
+}
+#profile {
+    height: 100%;
+    width: 11%;
+}
+#profile a img {
+    margin: 2px;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 50%;
+    border: 1px solid rgba(209, 204, 204, 0.24);
+}
+#profile a img:hover{
+    box-shadow: 0 0 5px white;
+}
+#icon a img {
+    margin: 2px;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 50%;
+}
+#icon {
+    height: 100%;
+    width: 10%;
+}
+#icon a img:hover {
+    box-shadow: 0 0 5px white;
+}
+#header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 7vh;
+    position: fixed;
+    top: 2px;
+    background-color: #21242e;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    z-index: 2;
+}
+#home p {
+    color: rgba(255,255,255,0.5);
+    font-size: 1.5rem;
+    margin: 1vh;
+}
+#home p:hover {
+    color: red;
+}
+#favorite p {
+    color: rgba(255,255,255,0.5);
+    font-size: 1.5rem;
+    margin: 1vh;
+}
+#favorite p:hover {
+    color: red;
+}
+#favorite-2 {
+    height: 100%;
+    width: 10%;
+}
+#favorite-2 i {
+    font-size: 2vh;
+    margin: 2vh;
+    color: rgba(255,255,255,0.5);
+}
+#favorite-2 i:hover{
+    color: red;
+    font-size: 2vh;
+}
+#search {
+    height: 100%;
+    width: 50%;
+    
+}
+#search form {
+    height: 5vh;
+    margin: 0.5vh auto;
+}
+#search form input {
+    width: 80%;
+    
+    display: inline-block;
+}
+#search form i {
+    position: relative;
+    left: -5vh;
+    color: rgb(7, 7, 7);
+    display: inline-block;
+}
+
+
+
+.list-heading {
+    position: fixed;
+	height: auto;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    width: 27%;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    margin-bottom: 1vh;
+    background-color: #21242e;
+}
+.list-heading-title {
+    width: 24%;
+}
+.list-heading h1 {
+    font-family: sans-serif;
+	color: rgba(255,255,255,0.9);
+    font-size: 12px;
+    margin: 1vh;
+    overflow-x: scroll;
+	
+}
+.list-heading-buttons {
+    width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#reset {
+    color: rgba(255,255,255,0.5);
+    background-color: #21242e;
+    border: none;
+    font-size: 10px;
+}
+#reset:hover {
+    color: white;
+}
+
+#submit {
+    width: 20%;
+    height: 3vh;
+    margin: 1vh;
+    color: rgba(255,255,255,0.5);
+    background-color: #21242e;
+    border: none;
+    font-size: 10px;
+    
+    
+}
+#submit:hover{
+    color: white;
+    box-shadow: 0 0 5px rgba(255,255,255,0.5);
+}
+
+
+.song-logo {
+	width: 10%;
+}
+.song-logo img
+{
+    margin: 4px 5px;
+	height:5vh;
+	width:5vh;
+    border-radius: 5px;
+}
+.song-heart {
+	width: 10%;
+    padding: 8px 0px;
+	color: darkgray;
+}
+.song-text a h1 {
+    font-weight:500;
+	font-size:2vh;
+	color:rgba(255,255,255,0.9);
+	font-family: monospace;
+    overflow-x: hidden;
+    margin-bottom: 0;
+}
+
+.playList-items::before{
+    content: '';
+    background-image: url("https://a10.gaanacdn.com/gn_img/albums/R7vKXr6Wmr/7vKXr8g5Wm/size_m.jpg");
+    display: inline-block;
+    width: 5vw;
+    height: 5vh;
+    margin-left: 2px;
+    border-radius: 10%;
+    background-size: cover;
+    background-position: center;
+    
+}

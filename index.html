@@ -2,35 +2,91 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>music player</title>
-    <link rel="stylesheet" href="style.css">
+    <title> music player </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="singer.css">
+    <script src="https://kit.fontawesome.com/8c456c6aa2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="all">
-        <ul class="horizontal-list text-center">
-            <li>
-                <div id="ninja"> ninja</div>
-                <div id="studio">Studio</div>
-            </li>
-            <li>
-                <div id="favourite">Favourites</div>
-            </li>
-            <li>
-                <form>
-                    <input type="search" id="search" placeholder="Search">
-                </form>
-            </li>
-        </ul>
-        <div class="flex-container">
-            <div id="div1">song1</div>
-            <div id="div2">song2</div>
-            <div id="div3">song3</div>
-            <div id="div4">song4</div>
-            
+    <header>
+        <div id="header">
+            <div id="icon">
+                <a href="#">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR2k0JRMw_4ATfbJPbRibJG1kzxblIs46CH5gyLXlqZYTQVPi1Q&usqp=CAU">
+                </a>
             </div>
+            <div id="home">
+                <a href="index.html">
+                    <p>Home</p>
+                </a>
+            </div>
+            <div id="favorite">
+                <a href="#">
+                    <p>Favorite</p>
+                </a>
+            </div>
+            <div id="favorite-2">
+                <a href="#">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div id="search">
+                <form>
+                    <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search"
+                        aria-label="Search">
+                    <a href="#">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </a>
+                </form>
+            </div>
+            <div id="profile">
+                <a href=" https://www.linkedin.com/in/sanjeev-kumar-02a30a150/">
+                    <img
+                        src="https://media-exp1.licdn.com/dms/image/C5103AQGGIk0CHCi6ng/profile-displayphoto-shrink_200_200/0?e=1594252800&v=beta&t=H2y5osIRQJ3yCH9k2xsptu0qjG7G-5KxY_kefrA14Hw">
+                </a>
+
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div id="timeline-container" class="mb75px">
+            <div class="timeline-image-container">
+                <a href="#">
+                    <img
+                        src=" ">
+                    <div class="timeline-image-detail">
+                        <h2> MOVIE1</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="timeline-image-container">
+                <a href="">
+                    <img
+                        src=" ">
+                    <div class="timeline-image-detail">
+                        <h2> MOVIE2</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="timeline-image-container">
+                <a href="">
+                    <img
+                        src=" ">
+                </a>
+                <div class="timeline-image-detail">
+                    <h2>MOVIE3</h2>
+                   
+                </div>
+            </div>
+            <br><br>
+    </main>
+
     </div>
+
 
 
 

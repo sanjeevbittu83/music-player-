@@ -82,7 +82,7 @@ main {
     
 }
 #search form {
-    height: 5vh;
+    height: 8vh;
     margin: 0.5vh auto;
 }
 #search form input {
@@ -177,10 +177,9 @@ main {
     overflow-x: hidden;
     margin-bottom: 0;
 }
-
 .playList-items::before{
     content: '';
-    background-image: url("https://a10.gaanacdn.com/gn_img/albums/R7vKXr6Wmr/7vKXr8g5Wm/size_m.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQc3WHIIVsh9737YKu-hEDicfW3TGsJSL8zw-ruDDmJ7VGWDlzw&usqp=CAU");
     display: inline-block;
     width: 5vw;
     height: 5vh;
